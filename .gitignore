@@ -1,1 +1,14 @@
 secret_key.py
+sample_text.csv
+vector_index.pkl
+retrieval.ipynb
+nvda_news_1.txt
+movies.csv
+faiss_index/
+.venv
+__pycache__
+sample_text.txt
+.env
+faiss_store_openai
+project.ipynb
+temp/
