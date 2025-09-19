@@ -38,23 +38,24 @@ Dieses Projekt zeigt, wie Large Language Models (LLMs) mit semantischer Suche (V
 
 ## 📦 Installation
 
-### 1. Repository klonen
 ```bash
+1. Repository klonen
+
 git clone https://github.com/CZhakshylykova/medai-literature-explorer.git
 cd medai-literature-explorer
 
-### 2. Abhängigkeiten installieren
+2. Abhängigkeiten installieren
 pip install -r requirements.txt
 
-### 3. API Key einrichten
+3. API Key einrichten
 
 Erstelle eine Datei .env im Projektordner mit folgendem Inhalt:
 
 OPENAI_API_KEY=dein_api_key
 
-### 4. App starten
+4. App starten
 streamlit run app.py
-
+```
 ---
 
 
@@ -88,7 +89,7 @@ Projekt von Cholpon Zhakshylykova
 
 - 💡 Fokus: Statistik, KI & Medizin
 
-- 🔗 LinkedIn | GitHub
+- 🔗 [LinkedIn](www.linkedin.com/in/cholpon-zhakshylykova) | [GitHub](https://github.com/CZhakshylykova)
 
 
 --- 
