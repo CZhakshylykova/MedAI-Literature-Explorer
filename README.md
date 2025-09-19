@@ -1,14 +1,12 @@
-📌 Finales README.md
-# MedAI Literatur Explorer 🧠📚
+## MedAI Literature Explorer
 
-## 📷 Screenshots
+# Der MedAI Literature Explorer kombiniert modernste Large Language Models (LLMs) mit semantischer Vektorsuche und macht wissenschaftliche Recherche schneller, intelligenter und präziser.  🧠📚
 
-### Startansicht
 ![Screenshot](./notebooks/image.png)
 
 ---
 
-Ein **KI-gestütztes Recherche-Tool** für wissenschaftliche Publikationen und Artikel.  
+
 Mit Hilfe von **LangChain, FAISS, Streamlit und OpenAI GPT** können Nutzer medizinische Publikationen (PDFs oder URLs) hochladen und:
 
 - **Fragen stellen** (Q&A über die Inhalte)  
@@ -19,7 +17,7 @@ Dieses Projekt zeigt, wie Large Language Models (LLMs) mit semantischer Suche (V
 
 ---
 
-## 🚀 Features
+##  Features
 - 📂 Unterstützung von **URLs** und **PDFs**  
 - 🔍 **Q&A-Modus** → Beantwortung spezifischer Fragen aus den Quellen  
 - 📝 **Zusammenfassung** aller Dokumente auf Knopfdruck  
@@ -45,45 +43,41 @@ Dieses Projekt zeigt, wie Large Language Models (LLMs) mit semantischer Suche (V
 git clone https://github.com/CZhakshylykova/medai-literature-explorer.git
 cd medai-literature-explorer
 
-2. Abhängigkeiten installieren
+### 2. Abhängigkeiten installieren
 pip install -r requirements.txt
 
-3. API Key einrichten
+### 3. API Key einrichten
 
 Erstelle eine Datei .env im Projektordner mit folgendem Inhalt:
 
 OPENAI_API_KEY=dein_api_key
 
-4. App starten
+### 4. App starten
 streamlit run app.py
 
-💡 Nutzung
+---
 
-Wähle URL oder PDF in der Sidebar.
+## 💡 Nutzung
 
-Lade eine oder mehrere Quellen hoch (z. B. Ärzteblatt-Artikel oder PubMed-PDF).
+- Wähle URL oder PDF in der Sidebar.
 
-Stelle deine Frage in das Eingabefeld.
+- Lade eine oder mehrere Quellen hoch (z. B. Ärzteblatt-Artikel oder PubMed-PDF).
 
-Nutze den Button „Zusammenfassung erstellen“, um eine Übersicht der Dokumente zu erhalten.
+- Stelle deine Frage in das Eingabefeld.
+
+- Nutze den Button „Zusammenfassung erstellen“, um eine Übersicht der Dokumente zu erhalten.
 
 📌 Anwendungsbeispiele
 
-🏥 Klinische Forschung: Überblick über mehrere Paper zu einem Thema
+- 🏥 Klinische Forschung: Überblick über mehrere Paper zu einem Thema
 
-💊 Pharma: Vergleich von Studien & Guidelines
+- 💊 Pharma: Vergleich von Studien & Guidelines
 
-🎓 Studierende & Ärzt:innen: Literaturrecherche für Promotionen und Arbeiten
+- 🎓 Studierende & Ärzt:innen: Literaturrecherche für Promotionen und Arbeiten
 
-📈 Geplante Erweiterungen
+- 🎓 Vergleichszusammenfassung mehrerer Quellen
 
-Wordcloud / Schlagwortanalyse der Artikel
-
-Export-Funktion (PDF/Markdown)
-
-Vergleichszusammenfassung mehrerer Quellen
-
-👩‍💻 Autorin
+### 👩‍💻 Autorin
 
 Projekt von Cholpon Zhakshylykova
 
