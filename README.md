@@ -1,6 +1,6 @@
 ## MedAI Literature Explorer
 
-#### Der MedAI Literature Explorer kombiniert modernste Large Language Models (LLMs) mit semantischer Vektorsuche und macht wissenschaftliche Recherche schneller, intelligenter und präziser.  🧠📚
+Der MedAI Literature Explorer kombiniert modernste Large Language Models (***LLMs***) mit semantischer Vektorsuche und macht wissenschaftliche Recherche schneller, intelligenter und präziser.  🧠📚
 
 ![Screenshot](./notebooks/image.png)
 
