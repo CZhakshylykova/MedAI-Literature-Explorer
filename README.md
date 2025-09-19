@@ -57,6 +57,7 @@ streamlit run app.py
 
 ---
 
+
 ## 💡 Nutzung
 
 - Wähle URL oder PDF in der Sidebar.
@@ -77,28 +78,32 @@ streamlit run app.py
 
 - 🎓 Vergleichszusammenfassung mehrerer Quellen
 
+---
+
 ### 👩‍💻 Autorin
 
 Projekt von Cholpon Zhakshylykova
 
-🎓 Molekulare Medizin (M.Sc.), Medizinstudium
+- 🎓 Molekulare Medizin (M.Sc.), Medizinstudium
 
-💡 Fokus: Statistik, KI & Medizin
+- 💡 Fokus: Statistik, KI & Medizin
 
-🔗 LinkedIn
- | GitHub
+- 🔗 LinkedIn | GitHub
 
-🌍 English Summary
+
+--- 
+
+### 🌍 English Summary
 
 MedAI Literature Explorer is an AI-powered research tool for scientific publications.
 Built with Streamlit, LangChain, FAISS, and OpenAI GPT, it allows users to:
 
-Upload PDFs or URLs
+- Upload PDFs or URLs
 
-Ask questions about the content (Q&A)
+- Ask questions about the content (Q&A)
 
-Generate summaries
+- Generate summaries
 
-Switch between German/English interface
+- Switch between German/English interface
 
-This project demonstrates how Large Language Models (LLMs) combined with vector search can make scientific research more efficient.
+- This project demonstrates how Large Language Models (LLMs) combined with vector search can make scientific research more efficient.
