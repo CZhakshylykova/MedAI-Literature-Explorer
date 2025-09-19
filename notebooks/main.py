@@ -58,7 +58,7 @@ source_type = st.sidebar.radio(source_label, ["URL", "PDF"])
 urls, uploaded_files = [], []
 if source_type == "URL":
     for i in range(3):
-        default_url = "https://www.who.int/news/item/04-09-2025-who-launches-new-initiative-on-digital-health" if i == 0 else ""
+        default_url = "https://www.nature.com/articles/s41467-025-59123-4" if i == 0 else ""
         url = st.sidebar.text_input(f"{url_label} {i+1}", value=default_url)
         if url:
             urls.append(url)
@@ -88,7 +88,7 @@ if process_data_clicked:
     # Lade URLs
     if urls:
         loader = UnstructuredURLLoader(urls=urls)
-        main_placeholder.text("Data Loading (URLs)...✅")
+        main_placeholder.text("Data Loading (URLs)...")
         docs.extend(loader.load())
 
     # Lade PDFs
@@ -99,7 +99,7 @@ if process_data_clicked:
             with open(pdf_path, "wb") as f:
                 f.write(pdf.read())
             loader = PyPDFLoader(pdf_path)
-            main_placeholder.text(f"Loading PDF: {pdf.name}...✅")
+            main_placeholder.text(f"Loading PDF: {pdf.name}...")
             docs.extend(loader.load())
 
     # Split Documents
